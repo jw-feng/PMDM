@@ -73,6 +73,9 @@ pip install torch_sparse-0.6.16+pt112cu113-cp39-cp39-linux_x86_64.whl
 wget https://data.pyg.org/whl/torch-1.12.0%2Bcu113/torch_spline_conv-1.2.1%2Bpt112cu113-cp39-cp39-linux_x86_64.whl
 pip install torch_spline_conv-1.2.1+pt112cu113-cp39-cp39-linux_x86_64.whl
 ```
+### Update LD_LIBRARY_PATH 
+```export LD_LIBRARY_PATH=/opt/conda/envs/mol/lib:$LD_LIBRARY_PATH
+```
 
 ### QuickVina 2
 For docking, install QuickVina 2:
